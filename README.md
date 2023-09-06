@@ -1,4 +1,4 @@
-# rent_app
+# Rent App / UI Work
 
 A new Flutter project.
 
