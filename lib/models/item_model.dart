@@ -1,5 +1,3 @@
-import 'dart:ffi';
-
 class Item {
   String? title;
   String? category;
@@ -20,10 +18,10 @@ class Item {
 
   static List<Item> nearby = [
     Item("Student Apartment", "Apartment", "Samsun,Turkiye", 150,
-        "https://cdn.kulturenvanteri.com/wp-content/uploads/2021/02/Samsun-Apartmani.jpeg"),
+        "https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg"),
     Item("Small Villa", "Villa", "Samsun,Turkiye", 750,
-        "https://www.hekimyapi.com/img/2019/05/samsun-atakum-villa-projesi-01.jpg"),
+        "https://images.pexels.com/photos/2079234/pexels-photo-2079234.jpeg"),
     Item("Family House", "House", "İstanbul,Turkiye", 1000,
-        "https://cdn.wannart.com/production/post/2019/09/Rag%C4%B1p-Pa%C5%9Fa-Apartman%C4%B1.jpg")
+        "https://images.pexels.com/photos/2079234/pexels-photo-2079234.jpeg")
   ];
 }
