@@ -15,7 +15,7 @@ class _SearchFieldState extends State<SearchField> {
       decoration: InputDecoration(
         border: InputBorder.none,
         filled: true,
-        fillColor: Colors.white,
+        fillColor: Colors.blue.shade50,
         hintText: "Search...",
         prefixIcon: Icon(CupertinoIcons.search),
         suffixIcon: Icon(Icons.filter_alt_outlined),

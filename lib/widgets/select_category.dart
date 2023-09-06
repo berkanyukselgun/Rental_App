@@ -41,7 +41,7 @@ Widget categoryButton(IconData icon, String? text) {
           Icon(
             icon,
             size: 32,
-            color: Color(0xFF2972FF),
+            color: Colors.blue.shade600,
           ),
           Text("$text"),
         ],

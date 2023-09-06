@@ -19,7 +19,7 @@ class _HomeScreenState extends State<HomeScreen> {
       appBar: AppBar(
         elevation: 0,
         backgroundColor: Colors.white,
-        toolbarHeight: 80,
+        toolbarHeight: 70,
         title: Row(
           children: [
             Icon(
@@ -27,7 +27,7 @@ class _HomeScreenState extends State<HomeScreen> {
               color: Colors.blue.shade600,
             ),
             Text(
-              "Tokyo,Japan",
+              "Samsun,Turkiye",
               style: TextStyle(
                 color: Colors.black,
               ),
