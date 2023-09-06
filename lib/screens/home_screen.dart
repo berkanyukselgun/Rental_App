@@ -1,5 +1,9 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:rent_app/models/item_model.dart';
+import 'package:rent_app/widgets/search_field.dart';
+import 'package:rent_app/widgets/select_category.dart';
+import 'package:rent_app/widgets/suggestion_list.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -44,7 +48,14 @@ class _HomeScreenState extends State<HomeScreen> {
       body: SingleChildScrollView(
         child: Padding(
           padding: EdgeInsets.all(16.0),
-          child: Column(children: []),
+          child: Column(children: [
+            SearchField(),
+            SelectCategory(),
+            SizedBox(height: 20.0),
+            SuggestionList("Recommendation for you", Item.recommendation),
+            SizedBox(height: 20.0),
+            SuggestionList("Nearby you", Item.nearby),
+          ]),
         ),
       ),
       bottomNavigationBar: BottomNavigationBar(
